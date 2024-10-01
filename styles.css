@@ -1,0 +1,20 @@
+header {
+    background-color: #313338
+}
+h1 {
+    color: #f2f3f5
+}
+body {
+    background: linear-gradient(
+    45deg,
+    #242424,
+    #424242
+  );
+}
+* {
+    font-family: Monaco, Georgia;
+    color: #f2f3f5
+}
+a {
+    color: #02a3fa
+}
