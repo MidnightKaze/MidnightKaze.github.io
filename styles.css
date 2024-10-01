@@ -5,5 +5,10 @@ h1 {
     color: #f2f3f5
 }
 a {
-    color: #02a3fa
+    color: #02a3fa;
+    text-decoration: none;
+}
+a:hover {
+    color: #02a3fa;
+    text-decoration: underline;
 }
