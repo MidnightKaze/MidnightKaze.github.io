@@ -3,12 +3,16 @@ body {
 }
 h1 {
     color: #f2f3f5;
+    font-family:'Courier New', Courier, monospace;
 }
 h2 {
     font-family:'Courier New', Courier, monospace
 }
 * {
     color: #f2f3f5
+}
+button {
+    color: #02a3fa
 }
 a {
     color: #02a3fa;
@@ -25,4 +29,8 @@ border {
 }
 marg {
     margin: 1.5rem
+}
+.abtme {
+    border-radius: 0.5rem;
+    border:#f2f3f5;
 }
