@@ -13,6 +13,21 @@
         <title> 
             This one Katastrophe of a website
         </title>
+        <script>
+            function changeBackgroundColor() {
+                const colors = ['#0d125e', '#410539', '#085844', '#313338'];
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                document.body.style.backgroundColor = randomColor;
+            }
+            function playBackgroundMusic() {
+                var audio = new Audio('melancholy melody.mp3');
+                audio.loop = true;
+                audio.play();
+            }
+            window.onload = function() {
+                playBackgroundMusic();
+            };
+        </script>
     </head>
     <body>
         <h1> 
@@ -34,6 +49,7 @@
                 About me</button>
         </p>
         <p> Okie bye! ヾ( ˃ᴗ˂ )◞ • *✰</p>
+        <button class= abtme onclick="changeBackgroundColor()">Click this for a surpise (≖⌣≖)</button>
     </body>
 </html>
 
