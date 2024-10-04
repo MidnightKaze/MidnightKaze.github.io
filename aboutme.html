@@ -13,15 +13,12 @@
         li {font-family: 'Karla';}
         </style>
         <title>About Me!</title>
+        <audio id="melancholy_melody" src="melancholy melody.mp3"></audio>
         <script>
-            function playBackgroundMusic() {
-                var audio = new Audio('melancholy melody.mp3');
-                audio.loop = true;
+            window.addEventListener('click', function() {
+                var audio = document.getElementById("melancholy_melody");
                 audio.play();
-            }
-            window.onload = function() {
-                playBackgroundMusic();
-            };
+            });
         </script>
     </head>
     <body>

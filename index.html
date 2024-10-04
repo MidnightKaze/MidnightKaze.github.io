@@ -13,17 +13,17 @@
         <title> 
             This one Katastrophe of a website
         </title>
+        <audio id="melancholy_melody" src="melancholy melody.mp3"></audio>
         <script>
             function changeBackgroundColor() {
                 const colors = ['#0d125e', '#410539', '#085844', '#313338'];
                 const randomColor = colors[Math.floor(Math.random() * colors.length)];
                 document.body.style.backgroundColor = randomColor;
             }
-            function playBackgroundMusic() {
-                var audio = new Audio('melancholy melody.mp3');
-                audio.loop = true;
+            window.addEventListener('click', function() {
+                var audio = document.getElementById("melancholy_melody");
                 audio.play();
-            }
+            });
             window.onload = function() {
                 playBackgroundMusic();
             };
