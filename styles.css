@@ -34,3 +34,15 @@ marg {
     border-radius: 0.5rem;
     border:#f2f3f5;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.grid-item {
+    background-color: #1e212b;
+    padding: 20px;
+    text-align: center;
+    font-family: "Karla";
+    border-radius: 0.5rem
+}
