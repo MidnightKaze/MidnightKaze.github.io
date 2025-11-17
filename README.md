@@ -5,3 +5,4 @@
 - [] Make and link all required pages
 - [] Make everything cute
 - [] Dark mode <3
+- [] COMMENT UP DAT CODE
