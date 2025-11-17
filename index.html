@@ -1,72 +1,50 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Merriweather:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./styles.css"/>
-        <img src="cat banner.jpg" alt="cats in space">
-        <style>
-        p {font-family: 'Karla';}
-        button {font-family: 'Karla';}
-        </style>
-        <title> 
-            This one Katastrophe of a website
-        </title>
-        <audio id="melancholy_melody" src="melancholy melody.mp3"></audio>
-        <script>
-            function changeBackgroundColor() {
-                const colors = ['#0d125e', '#410539', '#085844', '#313338'];
-                const randomColor = colors[Math.floor(Math.random() * colors.length)];
-                document.body.style.backgroundColor = randomColor;
-            }
-            window.addEventListener('click', function() {
-                var audio = document.getElementById("melancholy_melody");
-                audio.play();
-            });
-            window.onload = function() {
-                playBackgroundMusic();
-            };
-        </script>
-    </head>
-    <body>
-        <h1> 
-            Welcome!
-        </h1>
-        <p>
-            Heyo my name is Caitlyn, but some like to call me Kat (yes with a K).
-            I'll keep this loose, but if you're interested here's a more formal "get to know me":
-            <a href="https://medium.com/hackademia/some-call-me-a-katastrophe-b696e48f2ef0" target="_blank">Medium "Get To Know Me"</a>
-        </p>
-        <p>If you ever need to contact me, no you don't.<br />
-            Just kidding. I can be best reached with Discord! My username is <a href= "https://discord.gg/hZ6y9je8" target="_blank">midnightkaze</a><br />
-            (If the link doesn't work my apologizes in advance.)
-        </p>
-        <p>
-            A cool fact about me is that I'm ranked Diamond 3 in Valorant right now. <br />
-            If you want to learn more about me, check out this page: 
-            <button class= abtme onclick="window.location.href= 'aboutme.html';">
-                About me</button>
-        </p>
-        <p> Okie bye! ヾ( ˃ᴗ˂ )◞ • *✰</p>
-        <button class= abtme onclick="changeBackgroundColor()">Click this for a surpise (≖⌣≖)</button>
-        <h2> Check out some of my other work!</h2>
-        <div class="grid-container">
-            <div class="grid-item"><a href="https://github.com/MidnightKaze/MidnightKaze.github.io?authuser=0" target="_blank">Look Here's the Repository for this Website</a></div>
-            <div class="grid-item"><a href="https://medium.com/@cpnguyen0000/2024-orchestra-retreat-estes-park-363cc8e7eb49" target="_blank">My Most Recent Medium Post</a></div>
-        </div>
-        </body>
-    </body>
-</html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Minimal Portfolio</title>
 
-<!--
-             ／＞　 フ
-            | 　_　_|    eeeeepy...
-          ／` ミ＿xノ 
-         /　　　　 |
-        /　 ヽ　　 ﾉ
-        │　　|　|　|
-    ／￣|　　 |　|　|
-    (￣ヽ＿_ヽ_)__)
-    ＼二)          
--->
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<div class="page">
+
+  <main class="hero">
+    <div class="avatar" aria-hidden="true">
+      <!-- a small avatar for a personal flair -->
+      <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="avatar">
+        <g fill="none" stroke="#222" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M30 50c0-20 16-36 36-36s36 16 36 36v12c0 18-16 30-36 30S30 80 30 62z" fill="#fff"/>
+          <path d="M44 50c0-6 9-10 16-10s16 4 16 10" />
+          <circle cx="50" cy="56" r="1.8" fill="#222" stroke="none"/>
+          <circle cx="74" cy="56" r="1.8" fill="#222" stroke="none"/>
+          <path d="M56 72c4 2 8 2 12 0" />
+        </g>
+      </svg>
+    </div>
+
+    <h1 class="hi">Hi, there!</h1>
+
+    <p class="lead"><strong> I'm </strong> Caitlyn Nguyen </p>
+      Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <div class="row">
+      <aside class="links" aria-labelledby="links-heading">
+        <h4 id="links-heading">QUICK LINKS</h4>
+        <ul class="link-list">
+          <li><a href="#">ABOUT ME</a></li>
+          <li><a href="#">ALL PROJECTS</a></li>
+          <li><a href="#">CONTACT ME</a></li>
+        </ul>
+      </aside>
+      </div>
+    </div>
+  </main>
