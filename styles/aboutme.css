@@ -1,0 +1,96 @@
+:root{
+  --bg:#ffffff;
+  --muted:#6b6b6b;
+  --accent:#222;
+  --line:#e6e6e6;
+  --max-width:900px;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Montserrat, sans-serif;
+  background:var(--bg);
+  color:var(--accent);
+  line-height:1.6;
+  padding-bottom:80px;
+}
+
+/* header */
+.top{
+  max-width:var(--max-width);
+  margin:24px auto;
+  padding:0 24px;
+}
+.back{
+  color:var(--muted);
+  text-decoration:none;
+  font-size:14px;
+}
+.back:hover{
+  text-decoration:underline;
+}
+
+/* hero */
+.about-hero{
+  max-width:var(--max-width);
+  margin:40px auto 60px auto;
+  padding:0 24px;
+  display:flex;
+  align-items:center;
+  gap:36px;
+}
+
+.portrait{
+  width:150px;
+  height:150px;
+  border-radius:12px;
+  background-image:url(portrait.png);
+  background-size:cover;
+  background-position:center;
+  box-shadow:0 0 0 1px var(--line) inset;
+}
+
+.headline{
+  font-size:42px;
+  margin-bottom:8px;
+}
+.sub{
+  color:var(--muted);
+  max-width:40ch;
+}
+
+/* section base */
+section{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:0 24px;
+}
+section h2{
+  font-size:28px;
+  margin-bottom:14px;
+}
+
+/* bio paragraph spacing */
+.bio p{
+  max-width:70ch;
+  margin-bottom:18px;
+  color:var(--muted);
+}
+
+/* skills grid */
+.skills{
+  margin-top:60px;
+}
+.skill-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(160px,1fr));
+  gap:16px;
+}
+.skill-card{
+  padding:14px 16px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  font-size:14px;
+  color:var(--muted);
+}

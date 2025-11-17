@@ -118,7 +118,6 @@ body{
   display:inline-block;
 }
 
-
 /* responsive adjustments */
 @media (max-width:1100px){
   .page{grid-template-columns:1fr; margin:48px auto; gap:28px}
