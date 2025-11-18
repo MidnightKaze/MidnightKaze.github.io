@@ -1,0 +1,66 @@
+@import url("aboutme.css");
+
+.contact-icon {
+  width: 86px;
+  height: 86px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+/* section title */
+.contact-section h2 {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* body text */
+.contact-section p {
+  color: var(--muted);
+  max-width: 60ch;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+/* contact rows */
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 8px;
+  font-size: 15px;
+  align-items: baseline;
+}
+
+.contact-item span {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.contact-item a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* responsive */
+@media (max-width: 700px) {
+  .contact-item {
+    flex-direction: column;
+    gap: 2px;
+  }
+}

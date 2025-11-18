@@ -58,6 +58,7 @@ body{
 .sub{
   color:var(--muted);
   max-width:40ch;
+  margin-bottom: 0px;
 }
 
 /* section base */

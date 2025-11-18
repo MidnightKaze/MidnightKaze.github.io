@@ -1,0 +1,89 @@
+@import url("aboutme.css");
+
+/* tweak portrait box for projects */
+.project-icon {
+  background: var(--line);
+  border-radius: 12px;
+}
+
+/* section headings */
+.projects-list h2 {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* grid layout */
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* project card */
+.project-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+/* thumbnail placeholder */
+.thumb {
+  width: 100%;
+  height: 120px;
+  background: var(--line);
+  border-radius: 10px;
+}
+
+/* project info */
+.info h3 {
+  font-size: 18px;
+  margin: 0 0 6px 0;
+  font-weight: 600;
+}
+
+.info p {
+  margin: 0 0 12px 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.view {
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.view:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* responsive */
+@media (max-width: 700px) {
+  .project-card {
+    grid-template-columns: 1fr;
+  }
+
+  .thumb {
+    height: 160px;
+  }
+}
+
+/* individual project images */
+.noaa-thumb {
+  background-image: url('sonar.png');
+}
+
+.lidar-thumb {
+  background-image: url('kissicp.png');
+}
+
+.kobuki-thumb {
+  background-image: url('kobuki.jpg');
+}
