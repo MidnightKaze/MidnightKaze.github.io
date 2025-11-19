@@ -73,7 +73,7 @@ body{
 /* quick links and latest post row below hero */
 .row{
   display:grid;
-  grid-template-columns:260px 1fr;
+  grid-template-columns:260px 2fr;
   gap:32px;
   align-items:start;
   margin-top:24px;
