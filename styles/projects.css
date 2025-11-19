@@ -78,12 +78,18 @@
 /* individual project images */
 .noaa-thumb {
   background-image: url('sonar.png');
+  background-position: center center;
+  background-size: cover;
 }
 
 .lidar-thumb {
   background-image: url('kissicp.png');
+    background-position: center center;
+    background-size: cover;
 }
 
 .kobuki-thumb {
   background-image: url('kobuki.jpg');
+  background-position: center center;
+  background-size: cover;
 }

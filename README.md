@@ -1,8 +1,2 @@
 # Personal Portfolio for Caitlyn Nguyen
-## To Do List
-- [] Put in actual information 
-- [] Make the lil avatar guy a bit bigger
-- [] Make and link all required pages
-- [] Make everything cute
-- [] Dark mode <3
-- [] COMMENT UP DAT CODE
+This is just a personal website for me. It's hosted on GitHub pages so there's not much to say about that.
