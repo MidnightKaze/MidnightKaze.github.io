@@ -70,7 +70,7 @@ body{
   font-size:15px;
 }
 
-/* quick links and small thumbnail row below hero */
+/* quick links and latest post row below hero */
 .row{
   display:grid;
   grid-template-columns:260px 1fr;
