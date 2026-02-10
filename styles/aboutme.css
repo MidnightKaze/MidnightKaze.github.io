@@ -86,9 +86,22 @@ section h2{
 .skill-grid{
   display:grid;
   grid-template-columns:repeat(auto-fill, minmax(160px,1fr));
-  gap:16px;
+  gap:120px;
 }
 .skill-card{
+  width: 300px;
+  padding:14px 16px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  font-size:14px;
+  color:var(--muted);
+}
+.skill-grid-1{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(160px,1fr));
+  gap:16px;
+}
+.skill-card-1{
   padding:14px 16px;
   border:1px solid var(--line);
   border-radius:8px;
